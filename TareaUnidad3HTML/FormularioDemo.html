@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <form action="" method=""></form>
+    <p>
+        <label for="nombre">Nombre y Apellido</label>
+        <input type="text" name="nombre" placeholder="ingrese su nombre"/>
+        <input type="text" name="apellido" placeholder="ingrese su apellido" />
+
+        <label for="dni">DNI</label>
+        <input type="number" name="dni" placeholder="ingrese su DNI" />
+    </p>
+    <p>
+        <label for="telefono">Telefono</label>
+        <input type="number" name="telefono" placeholder="ingrese su numero telefonico"/>
+
+        <label for="correo">Email</label>
+        <input type="email" name="correo" placeholder="ingrese su correo electronico" />
+
+    </p>
+    <p>
+        <label for="sexo">Seleccione su sexo</label>
+        <ul>
+            <li>
+                <input type="radio" name="sexo" id="hombre">
+                <label>Hombre</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" id="mujer">
+                <label>Mujer</label>
+            </li>
+            <li>
+                <input type="radio" name="sexo" id="otro">
+                <label>Otro</label>
+            </li>
+        </ul>
+    </p>
+    <p>
+        <label for="cometarios">Comentarios adicionales</label>
+        <textarea name="comentarios" id="Comentarios"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Cancelar">
+    </p>
+
+</body>
+</html>
