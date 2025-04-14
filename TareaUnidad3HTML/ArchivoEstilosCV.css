@@ -26,6 +26,7 @@ h4{
     font: bold;
     font-size: 18px;
     text-decoration: underline orange;
+    margin: 0 0 20px;
 }
 
 img{
@@ -50,6 +51,7 @@ img{
     columns: 2;
     column-gap: 20px;
     column-rule: 2px solid orange;
+    
 }
 
 .CajaGustos ul{
