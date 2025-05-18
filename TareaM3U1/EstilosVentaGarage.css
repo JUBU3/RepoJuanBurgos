@@ -119,46 +119,27 @@ h2{
     font-size: 12px;
 }
 
-.personas{
+#carouselExampleDark{
+    height:40%;
+    width:80%;
+    
+}
+
+.carouselcustom{
+    justify-content: center;
+    
     display: flex;
-    justify-content: space-between;
-}
-.persona{
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 18%;
-    text-align: center;
-    padding: 13px;
-    box-sizing: border-box;
+    color: white;
 }
 
-.persona img{
-    border-radius: 50%;
-    max-width: 60%;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+.carousel-item h5,
+.carousel-item p{
+    color: white;
 }
 
-.persona h5,
-.persona h6{
-    margin: 0;
-    font-weight: normal;
-    color: #DDA15E
-}
+/* fin css Index */
 
-.persona h5{
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.persona h6{
-    font-size: 11px;
-    font-style: italic;
-}
-
-.persona p{
-    color: #666;
-    font-size: 10px;
-}
+/* inicio css productos*/
 
 .servicio{
     border: 1px solid #ccc;
@@ -188,34 +169,115 @@ h2{
     max-width: 225px;
 }
 
-/*.servicio:nth-child(even){
-    flex-direction: row-reverse;
-}*/
+/* fin css productos*/
 
-#carouselExampleDark{
-    height:40%;
-    width:80%;
-    
-}
-
-.carouselcustom{
-    justify-content: center;
-    
+/* inicio css novedades*/
+.novedades{
     display: flex;
-    color: white;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    
 }
 
-.carousel-item h5,
-.carousel-item p{
-    color: white;
+.card-body h5{
+    color:v ;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #DDA15E;
+    padding-bottom: 10px;
+
 }
 
-/*.info{
-    text-align: center;
+.card-body p{
+
+    font-size: 12px;
+
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    
+}
+
+.precios{
     columns: 2;
-    column-gap: 20px;
+}
 
-}*/
+.precioAnterior{
+    color: red;
+    
+}
+.precioOFerta{
+    color: rgb(1, 87, 1);
+    font-weight: bold;
+    
+}
+
+
+/* fin css novedades*/
+
+/* inicio css contacto*/
+
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+
+.datos p{
+    font-size: 14px;
+
+}
+
+.datos ul li{
+    font-size: 13px;
+}
+
+.formulario p{
+    display: flex;
+}
+
+.formulario p label{
+    min-width: 80px;
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #6da9ed;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #2e64a1;
+}
+
 
 
 
